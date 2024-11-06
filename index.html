@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Which Mythical Blox-fruit Are You?</title>
+</head>
+<body>
+    <div class="container">
+        <div class="language-switch">
+            <img src="images/uk.png" alt="English" class="flag" id="lang-en" style="cursor: pointer;">
+            <img src="images/norway.png" alt="Norsk" class="flag" id="lang-no" style="cursor: pointer;">
+        </div>
+        <h1 id="title">Which Mythical Blox-fruit Are You?</h1>
+        <button id="start-button">Which Mythical Fruit Are You?</button>
+        
+        <h2 id="explore-title">Explore the Fruits:</h2>
+        <div class="fruit-images">
+            <img src="images/Gravity_Fruit.png" alt="Gravity Fruit" class="fruit" data-description="The Gravity Fruit grants you control over gravitational forces, allowing you to manipulate the weight of objects and even fly!">
+            <img src="images/Mammoth_Fruit.png" alt="Mammoth Fruit" class="fruit" data-description="With the Mammoth Fruit, you gain the massive strength and resilience of the great beasts, making you unstoppable!">
+            <img src="images/T-Rex_Fruit.png" alt="T-Rex Fruit" class="fruit" data-description="This fruit gives you the ferocity and power of the T-Rex, making you a force to be reckoned with in any battle!">
+            <img src="images/Dough_Fruit.png" alt="Dough Fruit" class="fruit" data-description="The Dough Fruit allows you to create and manipulate dough, shaping it into powerful forms to overcome your foes.">
+            <img src="images/Shadow_Fruit.png" alt="Shadow Fruit" class="fruit" data-description="The Shadow Fruit grants you the ability to blend into the darkness, making you stealthy and elusive.">
+            <img src="images/Spirit_Fruit.png" alt="Spirit Fruit" class="fruit" data-description="With the Spirit Fruit, you can harness spiritual energy to empower yourself and those around you.">
+            <img src="images/Dragon_Fruit.png" alt="Dragon Fruit" class="fruit" data-description="The Dragon Fruit gives you the fierce spirit and abilities of a dragon, allowing you to unleash fiery power!">
+            <img src="images/Leopard_Fruit.png" alt="Leopard Fruit" class="fruit" data-description="With the Leopard Fruit, you gain agility and speed, enabling you to move with grace and precision.">
+            <img src="images/Kitsune_Fruit.png" alt="Kitsune Fruit" class="fruit" data-description="This fruit bestows upon you the cleverness and magical abilities of the Kitsune, allowing you to outsmart your opponents.">
+            <img src="images/Meme_Fruit.png" alt="Meme Fruit" class="fruit" data-description="The Meme Fruit gives you the power to create laughter and joy, spreading happiness wherever you go.">
+            <img src="images/Control_Fruit.png" alt="Control Fruit" class="fruit" data-description="With the Control Fruit, you can manipulate your surroundings, bending them to your will with precision and focus.">
+            <img src="images/Venom_Fruit.png" alt="Venom Fruit" class="fruit" data-description="The Venom Fruit grants you toxic powers, but with great power comes the responsibility to use it wisely.">
+        </div>
+
+        <div id="fruit-description" class="description-bubble" style="display: none;"></div>
+        
+        <form id="quiz-form" style="display: none;"></form>
+        <button id="next-button" style="display: none;">Next</button>
+        <div id="result" class="result" style="display: none;">
+            <h2 id="result-title">Your Result:</h2>
+            <p id="motivation-text" style="font-weight: bold;"></p>
+            <img id="result-image" src="" alt="Result Image" />
+            <p id="result-text"></p>
+            <button id="try-again-button" style="display: none;">Try Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
